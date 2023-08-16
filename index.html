@@ -17,13 +17,61 @@
         <section class="form">
             <form>
                 <p>
-                    <label for="firstName">Imie</label>
-                    <input value="Jan" id="firstName" type="text" name="firstName" placeholder="Imie"/>
+                    <label for="name">Imie</label>
+                    <input id="name" type="text" name="name" placeholder="Imie"/>
                 </p>
                 <p>
                     <label for="lastName">Nazwisko</label>
                     <input id="lastName" type="text" name="lastName" placeholder="Nazwisko"/>
                 </p>
+                <p>
+                    <label for="riddle">Zagadka</label>
+                    <input id="riddle" type="text" name="riddle" placeholder="Zagadka"/>
+                </p>
+                <fieldset>
+                    <legend>Dane adresowe:</legend>
+                    <p>
+                        <label for="street">Ulica</label>
+                        <input id="street" type="text" name="street" placeholder="Twoja ulica"/>
+                    </p>
+                    <p>
+                        <label for="city">Miasto</label>
+                        <input id="city" type="text" name="city" placeholder="Miasto"/>
+                    </p>
+                    <p>
+                        <label for="phone">Telefon</label>
+                        <input type="tel" name="phone" id="phone" placeholder="+41"/>
+                    </p>
+                    <p>
+                        <label for="age">Telefon</label>
+                        <input type="tel" name="age" id="age" placeholder="wiek"/>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Kolory</legend>
+                <p>
+                    <Label><input name="color" type="radio" value="red" checked/>Czerowny</Label>
+                </p>
+                <p>
+                    <Label><input name="color" type="radio" value="blue"/>Niebieski</Label>
+                </p>
+                <p>
+                    <Label><input name="color" type="radio" value="yellow"/>Zolty</Label>
+                </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Design</legend>
+                <p>
+                    <Label><input name="design" type="checkbox" value="minor"/>Skromny</Label>
+                </p>
+                <p>
+                    <Label><input name="design" type="checkbox" value="normal"/>Normalny</Label>
+                </p>
+                <p>
+                    <Label><input name="design" type="checkbox" value="major"/>Wymagajacy</Label>
+                </p>
+                </fieldset>
             </form>
         </section>
     </main>
