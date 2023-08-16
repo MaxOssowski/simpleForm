@@ -15,7 +15,7 @@
             <h1 class="page-header__heading">Formularz</h1>
         </header>
         <section class="form">
-            <form>
+            <form action="https://forms.cotenfrontend.pl" method="post">
                 <p>
                     <label for="name">Imie</label>
                     <input id="name" type="text" name="name" placeholder="Imie"/>
@@ -43,8 +43,8 @@
                         <input type="tel" name="phone" id="phone" placeholder="+41"/>
                     </p>
                     <p>
-                        <label for="age">Telefon</label>
-                        <input type="tel" name="age" id="age" placeholder="wiek"/>
+                        <label for="age">Wiek</label>
+                        <input type="number" name="age" id="age" placeholder="wiek"/>
                     </p>
                 </fieldset>
                 <fieldset>
@@ -72,6 +72,7 @@
                     <Label><input name="design" type="checkbox" value="major"/>Wymagajacy</Label>
                 </p>
                 </fieldset>
+                <input type="submit" value="Send"/>
             </form>
         </section>
     </main>
